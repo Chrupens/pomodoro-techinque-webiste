@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PomodoroTechnique</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pomodoro technique</h1>
+    </header>
+    <section id="description">
+      <h2>Choose a session length</h2>
+      <div>Work &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Break</div>
+    </section>
+    <section id="choice">
+      <input type="text" class="form__input" id="work-time" placeholder="e.g. 25 min" required=""/>
+      <input type="text" class="form__input" id="break-time" placeholder="e.g. 15 min" required="" />
+    </section>
+    <div class="cycle-headline"> Number of cycles
+      </div>
+    <div class="cycles-field">
+      <section id="cycle-choice">
+        <label class="container"><input name="session-cycles"  id = "main" type="radio" value = '1' checked> One cycle<span class="checkmark"></span></label>
+        <label class="container"><input name="session-cycles"  id = "second" type="radio" value = '2'> Two cycles <span class="checkmark"></span></label>
+        <label class="container"><input name="session-cycles"  id = "third" type="radio" value = '3'> Three cycles <span class="checkmark"></span></label>
+        <label class="container"><input name="session-cycles"  id = "fourth" type="radio" value = '4'> Four cycles <span class="checkmark"></span></label>
+      </section>
+    </div>
+    <section id="clock-header">
+      <h2 id="clock-headline"> WORK TIME 1/1</h2> 
+    </section>
+    <section id="clock">
+      <h1 id="minutes">00</h1> 
+      <h1 id="colon">:</h1> 
+      <h1 id="seconds">00</h1>
+    </section> 
+    <section id="menu-panel">
+      <button id="button-start">Start</button>
+      <button id="button-stop">Stop</button>
+      <button id="button-reset">Reset</button>
+    </section>
+  </body>
+</html>
