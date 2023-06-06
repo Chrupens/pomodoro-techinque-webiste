@@ -2,6 +2,7 @@
 # Pomodoro Technique description
 
 The Pomodoro Technique is a time management method based on several minutes stretches of focused work broken by few minutes breaks. Longer breaks, typically 15 to 30 minutes, are taken after four consecutive work intervals. Each work interval is called a pomodoro, the Italian word for tomato.
+https://pomodoro-technique-bszarlowicz.netlify.app
 
 
 
